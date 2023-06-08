@@ -1,0 +1,26 @@
+.container-detail-blog {
+  max-width: 100%;
+  height: 70%;
+}
+.box-main-detail {
+  width: 70%;
+  margin: auto;
+}
+.box-detail {
+  width: 70%;
+}
+.img-detail {
+  width: 100%;
+  border-radius: 8px;
+}
+.h5detail {
+  font-size: 20px;
+}
+.pdetail {
+  font-size: 16px;
+  color: rgb(97, 92, 92);
+}
+.p2detail {
+  font-size: 13px;
+  text-align: justify;
+}

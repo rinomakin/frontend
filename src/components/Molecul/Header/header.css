@@ -1,0 +1,46 @@
+.header {
+  max-width: 100%;
+  background-color: rgb(127, 204, 255);
+}
+.main-header {
+  background-color: rgb(127, 204, 255);
+  display: flex;
+  justify-content: space-around;
+  height: 4rem;
+  align-items: center;
+  max-width: 90%;
+  margin: auto;
+}
+.box-header:nth-child(2) {
+  display: flex;
+  padding: 1rem;
+  width: 25rem;
+  font-size: 1.4rem;
+  justify-content: center;
+}
+.box-header:nth-child(2) ul li {
+  list-style: none;
+}
+.box-header:nth-child(2) a {
+  width: 10rem;
+  margin-right: 10px;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.box-header:nth-child(2) a:hover {
+  color: rgb(225, 154, 12);
+}
+.logo {
+  color: white;
+  font-size: 2rem;
+}
+.icon {
+  display: flex;
+  width: 5rem;
+  height: 1rem;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+  color: rgb(251, 253, 255);
+  cursor: pointer;
+}

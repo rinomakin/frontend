@@ -1,0 +1,45 @@
+.container-home .box-home:nth-child(1) {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: flex-end;
+  margin-right: 5rem;
+}
+.container-home .box-home:nth-child(1) p {
+  font-size: 20px;
+}
+.container-home .box-home:nth-child(1) span {
+  color: aqua;
+  cursor: pointer;
+}
+.container-home .box-home:nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 2rem;
+}
+.pagination {
+  text-align: end;
+}
+.create {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  font-size: 45px;
+  cursor: pointer;
+  border-radius: 100%;
+  color: rgb(43, 255, 0);
+}
+.pagination span {
+  text-align: end;
+}
+.btn-next {
+  padding: 10px;
+  background-color: none;
+  border: none;
+  border-radius: 50%;
+}

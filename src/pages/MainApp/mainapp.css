@@ -1,0 +1,10 @@
+.box-mainapp {
+  display: flex;
+  flex-direction: column;
+}
+.box-mainapp {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
+  flex: 1;
+}

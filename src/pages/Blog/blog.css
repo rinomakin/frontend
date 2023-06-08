@@ -1,0 +1,34 @@
+.box-home:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Ablog {
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(27, 213, 226);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.rdm {
+  font-size: 16px;
+  font-style: bold;
+  color: blue;
+}
+.btn-next {
+  background-color: none;
+  cursor: pointer;
+}
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-right: 50px;
+}
+.btn-next:nth-child(1) {
+  display: block;
+}

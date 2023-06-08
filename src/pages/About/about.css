@@ -1,0 +1,29 @@
+.container-about {
+  max-width: 100%;
+}
+.judul-about {
+  max-width: 100%;
+  text-align: center;
+  font-size: 26px;
+}
+.box-about {
+  width: 70%;
+  margin: auto;
+}
+.box-main {
+  display: flex;
+  gap: 16px;
+}
+.box-about .box:nth-child(1) {
+  flex: 1;
+}
+.box-about .box:nth-child(1) .img-about {
+  width: 100%;
+  border-radius: 5px;
+}
+.box-about .box:nth-child(2) {
+  flex: 2;
+}
+.p-title {
+  text-align: justify;
+}

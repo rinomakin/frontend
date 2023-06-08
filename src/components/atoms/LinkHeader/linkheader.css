@@ -1,0 +1,14 @@
+.link-header {
+  font-size: 17px;
+  width: 4rem;
+  padding: 4px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.link-header:hover {
+  color: rgb(255, 179, 1);
+  background-color: rgb(131, 170, 202);
+}
